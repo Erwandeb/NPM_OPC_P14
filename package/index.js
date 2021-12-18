@@ -1,7 +1,7 @@
-//import React from "react";
+import React from "react";
 
 
-export const DropdownList = (props) => {
+const DropdownList = (props) => {
     if(!props.options) {
         return null
     }
@@ -14,3 +14,5 @@ export const DropdownList = (props) => {
         </select>
     );
 };
+
+module.export = DropdownList
